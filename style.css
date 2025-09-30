@@ -1,0 +1,108 @@
+body{
+   margin:0px ;
+   padding: 0px;
+
+}
+
+.container{
+    width:1200px ;
+    margin: auto;
+
+}
+
+.header{
+
+    background-color: #0890ff;
+    
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin:0px ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.link{
+  display: block;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right:10px ;
+  text-decoration: none;
+  background-color: rgb(115, 250, 5);
+  color: #000;
+  border-radius: 5px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    
+ 
+
+}
+
+.link:hover{
+
+    background-color: rgb(255, 204, 0);
+    font-weight: 700;
+}
+
+
+.gallery{
+  background-color: beige;
+  padding-top: 40px;
+  padding-left: 40px;
+
+}
+
+.gallery-list{
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+.gallery-iton{
+
+    width:350px ;
+    height: 250px;
+
+}
+
+
+button{
+    display: flex;
+font-size: 24px;
+  font-weight: 700;
+  background-color: rgb(255, 251, 1);
+  padding-top: 10px;
+  padding-right:20px;
+  padding-bottom: 10px;
+  padding-left:20px;
+  margin:280px;
+  justify-content:center ;
+  
+ 
+     
+}
+
+
+button:focus{
+    background-color: rgb(255, 153, 0);
+    font-size: 24px;
+  font-weight: 700;
+  
+
+}
+
+button:hover{
+    background-color: rgb(255, 153, 0);
+    font-size: 24px;
+  font-weight: 700;
+  
+}
